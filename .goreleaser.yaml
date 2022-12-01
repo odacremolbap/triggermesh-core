@@ -37,3 +37,7 @@ changelog:
       - "^docs:"
       - "^test:"
       - "^Merge pull request"
+
+release:
+  extra_files:
+    - glob: ./releases/manifests/
